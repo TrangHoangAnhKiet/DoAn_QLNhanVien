@@ -169,7 +169,8 @@ namespace QLSinhVien
 
         private void btnIn_Click(object sender, EventArgs e)
         {
-            frmHienThi frm = new frmHienThi(cbbLop.SelectedValue.ToString(), cbbLop.Text);
+            //frmHienThi frm = new frmHienThi(cbbLop.SelectedValue.ToString(), cbbLop.Text);
+            frmHienThiReport frm = new frmHienThiReport(cbbLop.SelectedValue.ToString(), cbbLop.Text);
             frm.ShowDialog();
         }
     }

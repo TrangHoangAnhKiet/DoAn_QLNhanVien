@@ -71,3 +71,4 @@ E:\Workspace\VisualStudioProject\QLSinhVien\QLSinhVien\obj\Debug\QLSinhVien.cspr
 E:\Workspace\VisualStudioProject\QLSinhVien\QLSinhVien\obj\Debug\QLSinhVien.frmHocSinh.resources
 E:\Workspace\VisualStudioProject\QLSinhVien\QLSinhVien\obj\Debug\RdlCompile.cache
 E:\Workspace\VisualStudioProject\QLSinhVien\QLSinhVien\obj\Debug\RdlCompile.compiled
+E:\Workspace\VisualStudioProject\QLSinhVien\QLSinhVien\obj\Debug\QLSinhVien.frmHienThiReport.resources

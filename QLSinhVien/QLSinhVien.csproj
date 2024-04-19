@@ -70,6 +70,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>dbQLHocSinh.dbml</DependentUpon>
     </Compile>
+    <Compile Include="frmHienThiReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHienThiReport.Designer.cs">
+      <DependentUpon>frmHienThiReport.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmHocSinh.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,14 +96,25 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLHocSinhDataSet.cs">
+      <DependentUpon>QLHocSinhDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="QLHocSinhDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>QLHocSinhDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="QLHocSinhDataSetReport.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLHocSinhDataSetReport.xsd</DependentUpon>
+    </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
     <EmbeddedResource Include="frmHienThi.resx">
       <DependentUpon>frmHienThi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHienThiReport.resx">
+      <DependentUpon>frmHienThiReport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmHocSinh.resx">
       <DependentUpon>frmHocSinh.cs</DependentUpon>
@@ -115,6 +132,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Report2.rdlc" />
     <None Include="dbQLHocSinh.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
       <LastGenOutput>dbQLHocSinh.designer.cs</LastGenOutput>
@@ -143,6 +161,17 @@
     </None>
     <None Include="QLHocSinhDataSet.xss">
       <DependentUpon>QLHocSinhDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QLHocSinhDataSetReport.xsc">
+      <DependentUpon>QLHocSinhDataSetReport.xsd</DependentUpon>
+    </None>
+    <None Include="QLHocSinhDataSetReport.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLHocSinhDataSetReport.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLHocSinhDataSetReport.xss">
+      <DependentUpon>QLHocSinhDataSetReport.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
