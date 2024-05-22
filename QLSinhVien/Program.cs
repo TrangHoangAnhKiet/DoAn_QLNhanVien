@@ -16,7 +16,7 @@ namespace QLSinhVien
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmHocSinh());
+            Application.Run(new frmDangNhap());
         }
     }
 }

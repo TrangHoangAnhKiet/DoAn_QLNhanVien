@@ -65,10 +65,49 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="dbQLHocSinh.designer.cs">
+    <Compile Include="dbQLNhanVIen.cs">
+      <DependentUpon>dbQLNhanVIen.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="dbQLNhanVIen.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>dbQLHocSinh.dbml</DependentUpon>
+      <DependentUpon>dbQLNhanVIen.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="fmrLuongNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmrLuongNV.Designer.cs">
+      <DependentUpon>fmrLuongNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAboutUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAboutUs.Designer.cs">
+      <DependentUpon>frmAboutUs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDangKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDangKy.Designer.cs">
+      <DependentUpon>frmDangKy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDangNhap.Designer.cs">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDiemDanh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDiemDanh.Designer.cs">
+      <DependentUpon>frmDiemDanh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHienThiHopDong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHienThiHopDong.Designer.cs">
+      <DependentUpon>frmHienThiHopDong.cs</DependentUpon>
     </Compile>
     <Compile Include="frmHienThiReport.cs">
       <SubType>Form</SubType>
@@ -76,70 +115,115 @@
     <Compile Include="frmHienThiReport.Designer.cs">
       <DependentUpon>frmHienThiReport.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmHocSinh.cs">
+    <Compile Include="frmNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmHocSinh.Designer.cs">
-      <DependentUpon>frmHocSinh.cs</DependentUpon>
+    <Compile Include="frmNhanVien.Designer.cs">
+      <DependentUpon>frmNhanVien.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmLop.cs">
+    <Compile Include="frmHopDong.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmLop.Designer.cs">
-      <DependentUpon>frmLop.cs</DependentUpon>
+    <Compile Include="frmHopDong.Designer.cs">
+      <DependentUpon>frmHopDong.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmHienThi.cs">
+    <Compile Include="frmQuanLi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmHienThi.Designer.cs">
-      <DependentUpon>frmHienThi.cs</DependentUpon>
+    <Compile Include="frmQuanLi.Designer.cs">
+      <DependentUpon>frmQuanLi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTangCa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTangCa.Designer.cs">
+      <DependentUpon>frmTangCa.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QLHocSinhDataSet.cs">
-      <DependentUpon>QLHocSinhDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="QLHocSinhDataSet.Designer.cs">
+    <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>QLHocSinhDataSet.xsd</DependentUpon>
+      <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="QLHocSinhDataSetReport.Designer.cs">
+    <Compile Include="QLNhanVienDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>QLHocSinhDataSetReport.xsd</DependentUpon>
+      <DependentUpon>QLNhanVienDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNhanVienDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNhanVienDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNhanVienDataSetDiemDanh.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNhanVienDataSetDiemDanh.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNhanVienDataSetHopDong.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNhanVienDataSetHopDong.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNhanVienDataSetLuong.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNhanVienDataSetLuong.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNhanVienDataSetTangCa.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNhanVienDataSetTangCa.xsd</DependentUpon>
     </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
-    <EmbeddedResource Include="frmHienThi.resx">
-      <DependentUpon>frmHienThi.cs</DependentUpon>
+    <EmbeddedResource Include="fmrLuongNV.resx">
+      <DependentUpon>fmrLuongNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAboutUs.resx">
+      <DependentUpon>frmAboutUs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDangKy.resx">
+      <DependentUpon>frmDangKy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDangNhap.resx">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDiemDanh.resx">
+      <DependentUpon>frmDiemDanh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHienThiHopDong.resx">
+      <DependentUpon>frmHienThiHopDong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmHienThiReport.resx">
       <DependentUpon>frmHienThiReport.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmHocSinh.resx">
-      <DependentUpon>frmHocSinh.cs</DependentUpon>
+    <EmbeddedResource Include="frmNhanVien.resx">
+      <DependentUpon>frmNhanVien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmLop.resx">
-      <DependentUpon>frmLop.cs</DependentUpon>
+    <EmbeddedResource Include="frmHopDong.resx">
+      <DependentUpon>frmHopDong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuanLi.resx">
+      <DependentUpon>frmQuanLi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTangCa.resx">
+      <DependentUpon>frmTangCa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Report1.rdlc" />
-    <EmbeddedResource Include="Report2.rdlc" />
-    <None Include="dbQLHocSinh.dbml">
+    <EmbeddedResource Include="ReportHopDong.rdlc" />
+    <None Include="dbQLNhanVIen.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
-      <LastGenOutput>dbQLHocSinh.designer.cs</LastGenOutput>
+      <LastGenOutput>dbQLNhanVIen.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="dbQLHocSinh.dbml.layout">
-      <DependentUpon>dbQLHocSinh.dbml</DependentUpon>
+    <None Include="dbQLNhanVIen.dbml.layout">
+      <DependentUpon>dbQLNhanVIen.dbml</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -151,27 +235,60 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="QLHocSinhDataSet.xsc">
-      <DependentUpon>QLHocSinhDataSet.xsd</DependentUpon>
+    <None Include="QLNhanVienDataSet1.xsc">
+      <DependentUpon>QLNhanVienDataSet1.xsd</DependentUpon>
     </None>
-    <None Include="QLHocSinhDataSet.xsd">
+    <None Include="QLNhanVienDataSet1.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>QLHocSinhDataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>QLNhanVienDataSet1.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="QLHocSinhDataSet.xss">
-      <DependentUpon>QLHocSinhDataSet.xsd</DependentUpon>
+    <None Include="QLNhanVienDataSet1.xss">
+      <DependentUpon>QLNhanVienDataSet1.xsd</DependentUpon>
     </None>
-    <None Include="QLHocSinhDataSetReport.xsc">
-      <DependentUpon>QLHocSinhDataSetReport.xsd</DependentUpon>
+    <None Include="QLNhanVienDataSetDiemDanh.xsc">
+      <DependentUpon>QLNhanVienDataSetDiemDanh.xsd</DependentUpon>
     </None>
-    <None Include="QLHocSinhDataSetReport.xsd">
+    <None Include="QLNhanVienDataSetDiemDanh.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>QLHocSinhDataSetReport.Designer.cs</LastGenOutput>
+      <LastGenOutput>QLNhanVienDataSetDiemDanh.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="QLHocSinhDataSetReport.xss">
-      <DependentUpon>QLHocSinhDataSetReport.xsd</DependentUpon>
+    <None Include="QLNhanVienDataSetDiemDanh.xss">
+      <DependentUpon>QLNhanVienDataSetDiemDanh.xsd</DependentUpon>
+    </None>
+    <None Include="QLNhanVienDataSetHopDong.xsc">
+      <DependentUpon>QLNhanVienDataSetHopDong.xsd</DependentUpon>
+    </None>
+    <None Include="QLNhanVienDataSetHopDong.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNhanVienDataSetHopDong.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNhanVienDataSetHopDong.xss">
+      <DependentUpon>QLNhanVienDataSetHopDong.xsd</DependentUpon>
+    </None>
+    <None Include="QLNhanVienDataSetLuong.xsc">
+      <DependentUpon>QLNhanVienDataSetLuong.xsd</DependentUpon>
+    </None>
+    <None Include="QLNhanVienDataSetLuong.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNhanVienDataSetLuong.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNhanVienDataSetLuong.xss">
+      <DependentUpon>QLNhanVienDataSetLuong.xsd</DependentUpon>
+    </None>
+    <None Include="QLNhanVienDataSetTangCa.xsc">
+      <DependentUpon>QLNhanVienDataSetTangCa.xsd</DependentUpon>
+    </None>
+    <None Include="QLNhanVienDataSetTangCa.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNhanVienDataSetTangCa.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNhanVienDataSetTangCa.xss">
+      <DependentUpon>QLNhanVienDataSetTangCa.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -181,6 +298,30 @@
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="QLNhanVienDataSet.xsc">
+      <DependentUpon>QLNhanVienDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QLNhanVienDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNhanVienDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNhanVienDataSet.xss">
+      <DependentUpon>QLNhanVienDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Resources\1.png" />
+    <None Include="Properties\Resources\9h.jpg" />
+    <None Include="Properties\Resources\admin.jpg" />
+    <None Include="Properties\Resources\DKy.jpg" />
+    <None Include="Properties\Resources\DN.jpg" />
+    <None Include="Properties\Resources\GV.jpg" />
+    <None Include="Properties\Resources\hcmue.jpg" />
+    <None Include="Properties\Resources\main.jpg" />
+    <None Include="Properties\Resources\mk.jpg" />
+    <None Include="Properties\Resources\NS.jpg" />
+    <None Include="Properties\Resources\AboutUs.jpg" />
+    <None Include="Properties\Resources\color.jpg" />
+    <Content Include="Properties\Resources\LoGo.png" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

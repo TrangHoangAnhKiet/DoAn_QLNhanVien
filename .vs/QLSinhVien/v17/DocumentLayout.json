@@ -1,0 +1,176 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\NAM 2 HK2 (HOC TAP)\\LTWIN\\DoAn_CK\\NguonCode\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0866C2-939B-4C66-B7C2-7CBAAE3C082B}|QLSinhVien\\QLSinhVien.csproj|d:\\nam 2 hk2 (hoc tap)\\ltwin\\doan_ck\\nguoncode\\qlsinhvien\\frmquanli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D0866C2-939B-4C66-B7C2-7CBAAE3C082B}|QLSinhVien\\QLSinhVien.csproj|solutionrelative:qlsinhvien\\frmquanli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0866C2-939B-4C66-B7C2-7CBAAE3C082B}|QLSinhVien\\QLSinhVien.csproj|D:\\NAM 2 HK2 (HOC TAP)\\LTWIN\\DoAn_CK\\NguonCode\\qlsinhvien\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D0866C2-939B-4C66-B7C2-7CBAAE3C082B}|QLSinhVien\\QLSinhVien.csproj|solutionrelative:qlsinhvien\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0866C2-939B-4C66-B7C2-7CBAAE3C082B}|QLSinhVien\\QLSinhVien.csproj|D:\\NAM 2 HK2 (HOC TAP)\\LTWIN\\DoAn_CK\\NguonCode\\qlsinhvien\\frmhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0866C2-939B-4C66-B7C2-7CBAAE3C082B}|QLSinhVien\\QLSinhVien.csproj|solutionrelative:qlsinhvien\\frmhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0866C2-939B-4C66-B7C2-7CBAAE3C082B}|QLSinhVien\\QLSinhVien.csproj|D:\\NAM 2 HK2 (HOC TAP)\\LTWIN\\DoAn_CK\\NguonCode\\qlsinhvien\\frmhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D0866C2-939B-4C66-B7C2-7CBAAE3C082B}|QLSinhVien\\QLSinhVien.csproj|solutionrelative:qlsinhvien\\frmhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0866C2-939B-4C66-B7C2-7CBAAE3C082B}|QLSinhVien\\QLSinhVien.csproj|D:\\NAM 2 HK2 (HOC TAP)\\LTWIN\\DoAn_CK\\NguonCode\\qlsinhvien\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0866C2-939B-4C66-B7C2-7CBAAE3C082B}|QLSinhVien\\QLSinhVien.csproj|solutionrelative:qlsinhvien\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0866C2-939B-4C66-B7C2-7CBAAE3C082B}|QLSinhVien\\QLSinhVien.csproj|D:\\NAM 2 HK2 (HOC TAP)\\LTWIN\\DoAn_CK\\NguonCode\\qlsinhvien\\frmquanli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0866C2-939B-4C66-B7C2-7CBAAE3C082B}|QLSinhVien\\QLSinhVien.csproj|solutionrelative:qlsinhvien\\frmquanli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0866C2-939B-4C66-B7C2-7CBAAE3C082B}|QLSinhVien\\QLSinhVien.csproj|D:\\NAM 2 HK2 (HOC TAP)\\LTWIN\\DoAn_CK\\NguonCode\\qlsinhvien\\reporthopdong.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{9D0866C2-939B-4C66-B7C2-7CBAAE3C082B}|QLSinhVien\\QLSinhVien.csproj|solutionrelative:qlsinhvien\\reporthopdong.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0866C2-939B-4C66-B7C2-7CBAAE3C082B}|QLSinhVien\\QLSinhVien.csproj|D:\\NAM 2 HK2 (HOC TAP)\\LTWIN\\DoAn_CK\\NguonCode\\qlsinhvien\\frmtangca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D0866C2-939B-4C66-B7C2-7CBAAE3C082B}|QLSinhVien\\QLSinhVien.csproj|solutionrelative:qlsinhvien\\frmtangca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0866C2-939B-4C66-B7C2-7CBAAE3C082B}|QLSinhVien\\QLSinhVien.csproj|D:\\NAM 2 HK2 (HOC TAP)\\LTWIN\\DoAn_CK\\NguonCode\\qlsinhvien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0866C2-939B-4C66-B7C2-7CBAAE3C082B}|QLSinhVien\\QLSinhVien.csproj|solutionrelative:qlsinhvien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0866C2-939B-4C66-B7C2-7CBAAE3C082B}|QLSinhVien\\QLSinhVien.csproj|D:\\NAM 2 HK2 (HOC TAP)\\LTWIN\\DoAn_CK\\NguonCode\\qlsinhvien\\frmtangca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0866C2-939B-4C66-B7C2-7CBAAE3C082B}|QLSinhVien\\QLSinhVien.csproj|solutionrelative:qlsinhvien\\frmtangca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmHopDong.cs [Design]",
+              "DocumentMoniker": "D:\\NAM 2 HK2 (HOC TAP)\\LTWIN\\DoAn_CK\\NguonCode\\QLSinhVien\\frmHopDong.cs",
+              "RelativeDocumentMoniker": "QLSinhVien\\frmHopDong.cs",
+              "ToolTip": "D:\\NAM 2 HK2 (HOC TAP)\\LTWIN\\DoAn_CK\\NguonCode\\QLSinhVien\\frmHopDong.cs [Design]",
+              "RelativeToolTip": "QLSinhVien\\frmHopDong.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T14:02:37.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmHopDong.cs",
+              "DocumentMoniker": "D:\\NAM 2 HK2 (HOC TAP)\\LTWIN\\DoAn_CK\\NguonCode\\QLSinhVien\\frmHopDong.cs",
+              "RelativeDocumentMoniker": "QLSinhVien\\frmHopDong.cs",
+              "ToolTip": "D:\\NAM 2 HK2 (HOC TAP)\\LTWIN\\DoAn_CK\\NguonCode\\QLSinhVien\\frmHopDong.cs",
+              "RelativeToolTip": "QLSinhVien\\frmHopDong.cs",
+              "ViewState": "AQIAAIcAAAAAAAAAAIAwwJYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T14:02:32.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmNhanVien.cs [Design]",
+              "DocumentMoniker": "D:\\NAM 2 HK2 (HOC TAP)\\LTWIN\\DoAn_CK\\NguonCode\\QLSinhVien\\frmNhanVien.cs",
+              "RelativeDocumentMoniker": "QLSinhVien\\frmNhanVien.cs",
+              "ToolTip": "D:\\NAM 2 HK2 (HOC TAP)\\LTWIN\\DoAn_CK\\NguonCode\\QLSinhVien\\frmNhanVien.cs [Design]",
+              "RelativeToolTip": "QLSinhVien\\frmNhanVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T13:55:06.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmTangCa.cs [Design]",
+              "DocumentMoniker": "D:\\NAM 2 HK2 (HOC TAP)\\LTWIN\\DoAn_CK\\NguonCode\\QLSinhVien\\frmTangCa.cs",
+              "RelativeDocumentMoniker": "QLSinhVien\\frmTangCa.cs",
+              "ToolTip": "D:\\NAM 2 HK2 (HOC TAP)\\LTWIN\\DoAn_CK\\ReportViewer\\QLSinhVien\\frmTangCa.cs [Design]",
+              "RelativeToolTip": "..\\ReportViewer\\QLSinhVien\\frmTangCa.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T13:30:04.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmQuanLi.cs [Design]",
+              "DocumentMoniker": "D:\\NAM 2 HK2 (HOC TAP)\\LTWIN\\DoAn_CK\\NguonCode\\QLSinhVien\\frmQuanLi.cs",
+              "RelativeDocumentMoniker": "QLSinhVien\\frmQuanLi.cs",
+              "ToolTip": "D:\\NAM 2 HK2 (HOC TAP)\\LTWIN\\DoAn_CK\\NguonCode\\QLSinhVien\\frmQuanLi.cs [Design]",
+              "RelativeToolTip": "QLSinhVien\\frmQuanLi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T13:27:11.611Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmNhanVien.cs",
+              "DocumentMoniker": "D:\\NAM 2 HK2 (HOC TAP)\\LTWIN\\DoAn_CK\\NguonCode\\QLSinhVien\\frmNhanVien.cs",
+              "RelativeDocumentMoniker": "QLSinhVien\\frmNhanVien.cs",
+              "ToolTip": "D:\\NAM 2 HK2 (HOC TAP)\\LTWIN\\DoAn_CK\\NguonCode\\QLSinhVien\\frmNhanVien.cs",
+              "RelativeToolTip": "QLSinhVien\\frmNhanVien.cs",
+              "ViewState": "AQIAAIYAAAAAAAAAAAAAAJcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T14:10:16.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmQuanLi.cs",
+              "DocumentMoniker": "D:\\NAM 2 HK2 (HOC TAP)\\LTWIN\\DoAn_CK\\NguonCode\\QLSinhVien\\frmQuanLi.cs",
+              "RelativeDocumentMoniker": "QLSinhVien\\frmQuanLi.cs",
+              "ToolTip": "D:\\NAM 2 HK2 (HOC TAP)\\LTWIN\\DoAn_CK\\NguonCode\\QLSinhVien\\frmQuanLi.cs",
+              "RelativeToolTip": "QLSinhVien\\frmQuanLi.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T14:28:26.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReportHopDong.rdlc [Design]",
+              "DocumentMoniker": "D:\\NAM 2 HK2 (HOC TAP)\\LTWIN\\DoAn_CK\\NguonCode\\QLSinhVien\\ReportHopDong.rdlc",
+              "RelativeDocumentMoniker": "QLSinhVien\\ReportHopDong.rdlc",
+              "ToolTip": "D:\\NAM 2 HK2 (HOC TAP)\\LTWIN\\DoAn_CK\\NguonCode\\QLSinhVien\\ReportHopDong.rdlc [Design]",
+              "RelativeToolTip": "QLSinhVien\\ReportHopDong.rdlc [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2024-05-22T13:33:48.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmTangCa.cs",
+              "DocumentMoniker": "D:\\NAM 2 HK2 (HOC TAP)\\LTWIN\\DoAn_CK\\NguonCode\\QLSinhVien\\frmTangCa.cs",
+              "RelativeDocumentMoniker": "QLSinhVien\\frmTangCa.cs",
+              "ToolTip": "D:\\NAM 2 HK2 (HOC TAP)\\LTWIN\\DoAn_CK\\NguonCode\\QLSinhVien\\frmTangCa.cs",
+              "RelativeToolTip": "QLSinhVien\\frmTangCa.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAAAGcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T13:24:51.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\NAM 2 HK2 (HOC TAP)\\LTWIN\\DoAn_CK\\NguonCode\\QLSinhVien\\Program.cs",
+              "RelativeDocumentMoniker": "QLSinhVien\\Program.cs",
+              "ToolTip": "D:\\NAM 2 HK2 (HOC TAP)\\LTWIN\\DoAn_CK\\NguonCode\\QLSinhVien\\Program.cs",
+              "RelativeToolTip": "QLSinhVien\\Program.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAjwA0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T04:11:27.5Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

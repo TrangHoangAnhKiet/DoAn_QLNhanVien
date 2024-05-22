@@ -24,25 +24,28 @@ namespace QLSinhVien
             _malop = malop; _tenlop = tenlop;
         }
 
+        
+
         private void frmHienThiReport_Load(object sender, EventArgs e)
         {
             //Nap du lieu
             dbQLSinhVienDataContext db = new dbQLSinhVienDataContext();
-            List<HocSinh> lst = new List<HocSinh>();
+            List<NhanVien> lst = new List<NhanVien>();
             if (_malop == ""){
                 _malop = "All";
-                lst = db.HocSinhs.ToList();
+                lst = db.NhanViens.ToList();
             }
-            else lst = db.HocSinhs.Where(p => p.MaLop == _malop).ToList();
+            else lst = db.NhanViens.Where(p => p.MaPhongBan == _malop).ToList();
             //Nap du lieu parameter report
             ReportParameter[] parameter = new ReportParameter[2];
-            parameter[0] = new ReportParameter("paMaLop", _malop);
-            parameter[1] = new ReportParameter("paTenLop", _tenlop);
+            parameter[0] = new ReportParameter("paMaPhongBan", _malop);
+            parameter[1] = new ReportParameter("paTenPhongBan", _tenlop);
             reportViewer1.LocalReport.DataSources.Clear();
-            reportViewer1.LocalReport.DataSources.Add(new ReportDataSource("DataSetHocSinh",lst));
+            reportViewer1.LocalReport.DataSources.Add(new ReportDataSource("DataSet1",lst));
             reportViewer1.LocalReport.SetParameters(parameter);
             //Xuat du lieu
             this.reportViewer1.RefreshReport();
+            
         }
     }
 }
